@@ -10,5 +10,5 @@ git clone https://github.com/Tiemenerikjansen/Dotfiles.git ~/.dotfiles
 
 ln -sf ~/.dotfiles/.zshrc ~/.zshrc
 
-
+zsh
 
