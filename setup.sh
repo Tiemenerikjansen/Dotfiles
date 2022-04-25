@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt install \
+sudo apt -y install \
   git \
   neovim \
   exa \
@@ -20,6 +20,7 @@ ln -sf ~/.dotfiles/.zshrc ~/.zshrc
 ln -sf ~/.dotfiles/init.vim ~/.config
 
 sudo apt install zsh
+sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 chsh -s $(which zsh)
 zsh
 
