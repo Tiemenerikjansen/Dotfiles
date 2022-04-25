@@ -6,8 +6,7 @@ mkdir -p ~/Temp
 
 sudo apt install git
 
-git clone https://github.com/Tiemenerikjansen/Dotfiles.git ~/Temp
+git clone https://github.com/Tiemenerikjansen/Dotfiles.git ~/.dotfiles
 
-mv ~/Temp/Dotfiles/* ~/.dotfiles
 
 
