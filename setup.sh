@@ -19,8 +19,10 @@ git clone https://github.com/Tiemenerikjansen/Dotfiles.git ~/.dotfiles
 ln -sf ~/.dotfiles/.zshrc ~/.zshrc
 ln -sf ~/.dotfiles/init.vim ~/.config
 
-
 sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)" "" --unattended --keep-zshrc
+
+chsh -s $(which zsh)
+zsh
 
 
 
